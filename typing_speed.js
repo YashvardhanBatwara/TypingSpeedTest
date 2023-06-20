@@ -17,7 +17,7 @@ async function displaytext(){
   const text3 = await randomtext()
   const text4 = await randomtext()
   const text5 = await randomtext()
-  sampletxt.innerText = text1 + text2 + text3 + text4 + text5
+  sampletxt.innerText = text1 + " " + text2 + " " + text3 + " " + text4 + " " + text5
 }
 displaytext();
 var flag = 1;
